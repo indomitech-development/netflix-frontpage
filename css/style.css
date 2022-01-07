@@ -117,8 +117,48 @@ text-decoration: underline;
 @media only screen and (max-width: 780px) {
     video {
       width: 300px;
-      margin-top:0px;
-      margin-left:400px;
+      margin-left:100px;
+    }
+    .padding{
+        margin-top:10px;
+    }
+    .small{
+        width:300px;
+    }
+    .top{
+        text-align: center;
     }
   }
-  
+  @media only screen and (max-width: 1200px) {
+    .width{
+        width:750px;
+        margin-top:5px!important;
+    }
+    video {
+        width: 300px;
+        margin-left:100px;
+      }
+    .larger{
+        width:400px;
+    }
+  }
+    @media only screen and (max-width:500px){
+.width{
+        width:300px;
+        margin-top:5px!important;
+    }
+    .larger{
+        width:250px;
+    }
+}
+@media  screen and (max-width:950px) {
+    video {
+        width: 200px;
+        margin-left:100px;
+      }
+}
+@media screen and (min-width:815px){
+    body{
+        overflow-x: hidden;
+    }
+}
