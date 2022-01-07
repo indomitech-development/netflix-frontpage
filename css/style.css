@@ -33,7 +33,7 @@ body{
     z-index: 1;
     background: linear-gradient(to bottom,#000,transparent);
 }
-.input{
+.input1{
     height:50px;
 }
 .font{
@@ -142,6 +142,9 @@ text-decoration: underline;
         width:400px;
     }
   }
+  .center{
+    margin-left:300px;
+}
     @media only screen and (max-width:500px){
 .width{
         width:300px;
@@ -150,6 +153,13 @@ text-decoration: underline;
     .larger{
         width:250px;
     }
+    .accordion{
+        width:100%;
+        
+    }
+    .center{
+        margin-left: 0px !important;
+    }
 }
 @media  screen and (max-width:950px) {
     video {
@@ -157,8 +167,65 @@ text-decoration: underline;
         margin-left:100px;
       }
 }
-@media screen and (min-width:815px){
+@media screen and (max-width:815px){
     body{
         overflow-x: hidden;
+    }
+    .center{
+        margin-left:150px;
+    }
+}
+.signuptop{
+    padding:100px 0px 220px !important;
+    
+}
+.color::placeholder {
+    color: white !important;
+    opacity: 1;
+    }
+.signuptop:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width: 0px !important;
+    height:0px !important;
+    z-index: 1;
+    /* background: linear-gradient(to bottom, rgb(8, 7, 7), rgba(0, 0, 0, 0.73)); */
+}
+.signupwidth{
+    width:400px;
+    height:600px !important;
+}
+.signupinput {
+    width:270px;
+}
+.bgdark{
+   background-color: black;
+   opacity: 0.8;
+}
+.facebook{
+    width:30px;
+}
+.font1{
+    font-size: 12px;
+}
+
+.glass{
+    position:absolute;
+    margin-top:50px;
+    width:100%;
+    height:170px;
+    background-color: black;
+    opacity: 0.8;
+    
+}
+@media screen and (max-width:760px){
+    .hidden>li>a{
+        visibility: hidden;
+        height:150px;
+    }
+    .hidden{
+        visibility: hidden;
     }
 }
